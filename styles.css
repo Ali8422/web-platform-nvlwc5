@@ -4,6 +4,53 @@
 
 body {
   display: block;
-  margin: 8px;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
   font-family: 'Times New Roman', Times, serif;
+}
+/* header {
+  padding: 80px;
+
+} */
+header{
+    background-image: url(https://ag-quiz-2022.surge.sh/background.webp);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    max-width: none;
+    padding: 10vw 2em;
+    margin: 0%;
+    text-align: center;
+    color: white;
+}
+#logo {
+  display: inline-block;
+  height: 100px;
+  vertical-align: top;
+  width: 100px;
+}
+header h1 {
+  color: white;
+  font-size: 3.5em;
+  font-weight: 300;
+}
+em {
+  background-color: rgba(36, 6, 204, 0.534);
+  border-radius: 5px;
+  font-size: xx-large;
+  padding: 3px;
+  margin: 5px;
+}
+section{
+  padding: 3px;
+  margin: 0% 5%;;
+  font-size: 1.2em;
+}
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0px;
 }
